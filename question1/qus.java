@@ -1,4 +1,4 @@
-public class qus_1 {
+public class qus {
     public static void count_int(int n)
     {
         int count=0; 
@@ -10,7 +10,8 @@ public class qus_1 {
         }
         System.out.println(count);
     }
- public static void main(String[] args) {
-    count_int(12345);
- }   
+    public static void main(String[] args) {
+        count_int(12345);   
+    }
+    
 }
