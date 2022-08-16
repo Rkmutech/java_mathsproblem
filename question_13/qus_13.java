@@ -6,14 +6,15 @@ public class qus_13 {
         int temp=1,n1,temp1;
        // temp=n%10;
         //n/=10;
-        while(n!=0)
+        while(n>10)
         {
             n1=n%10;
-            n/=10;
             temp=n1;
-            if(temp>n1)
+            n/=10;
+            temp1=n%10;
+            if(temp>temp1)
             {
-                temp=n1;
+                temp=temp1;
             }
         }
         System.out.println(temp);
