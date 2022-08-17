@@ -17,6 +17,10 @@ public class qus_6 {
     }
     public static void main(String[] args) {
         count_even(2345466);
+        System.out.println("Next input:");
+        count_even(738358884);
+        System.out.println("Next input:");
+        count_even(111111);
         
     }
     
