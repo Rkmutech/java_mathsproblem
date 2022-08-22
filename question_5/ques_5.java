@@ -6,7 +6,7 @@ public class ques_5 {
         int count=0,sum=0;
         while(n!=0)
         {
-            ++count;
+            count++;
             
             if(count%2==0)
             {
@@ -18,6 +18,8 @@ public class ques_5 {
     }
     public static void main(String[] args) {
         sum_Even_int(23456);
+        System.out.println("next input");
+        sum_Even_int(2456);
         
     }
     
